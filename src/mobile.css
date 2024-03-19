@@ -1,0 +1,129 @@
+@media (max-width:999px) {
+ 
+    body{
+        background:
+        url(./img/loggirl.svg),
+        radial-gradient(var(--back),var(--back2)),
+        repeating-conic-gradient(
+            from 75deg, rgb(0, 0, 0) 0deg 45deg, rgba(41, 44, 46, 0.375) 45deg 90deg);
+          background-blend-mode:difference;
+         background-repeat: no-repeat, no-repeat,repeat;
+         background-attachment: fixed,fixed;
+        background-size: 500px 500px,150% 200%,1em 1em ;
+        background-position: 80px 0px,center,0% 50%;
+    }  
+    .iconbox{
+        margin-top:0px;
+        margin-left:0px;
+    }
+    div>div>div{
+         animation-timeline:view(1700px -10px);   
+         }  
+         div>div>div:has([data-cat="imgs"]){
+              animation-timeline:view(800px 0px);   
+               }
+    .headtext::after{
+    content:"Robotics";
+    top:20px;
+    }
+    .headtext,.headtext1,.headtext2,.htextactive{
+        font-size: 50px;
+        display: flex;
+        padding-top: 0px;
+        align-items: left;
+        overflow: hidden;
+        justify-content: top;
+        height: 120px;
+
+
+    }
+    a{
+        text-decoration: none;
+        color: unset;
+    }
+    h4{
+        display: flex;
+        justify-content: center;
+    }
+    .head{
+        overflow: hidden;
+        height: 500px;
+    }
+    .content{
+        margin: auto;
+        width:unset
+    }
+    .footer{
+        display: flex;
+        height: unset;
+        flex-direction: column;
+    }
+    .sec{
+        width: unset;
+        text-align: left;
+    }
+    .flinks{
+        display: flex;
+        padding-left: 5px;
+        justify-content: left;
+        align-items: center;
+        text-align: left;
+    }
+ 
+
+    .headtextb{
+        height: 20px;
+    }
+    .qleft{
+        width:unset;
+        overflow-x: hidden;
+
+    }
+    .qright{
+        width: 80%;
+        height:300px;
+        margin:auto;
+    }
+    .getst{
+        box-shadow: 
+        inset 0px 40px 0px var(--transpdoc), 
+        inset 0px -40px 0px var(--transpdoc),
+         inset -40px 0px 0px var(--transpdoc),
+          inset 40px 0px 0px var(--transpdoc);
+        filter: drop-shadow( 200px 0px 0px white, -200px 0px 0px white, 0px 200px 0px white, 0px 200px 0px white, );
+
+    }
+    .ui{
+        width:35%;
+        background:none;
+
+    }
+    .parat2{
+        font-size:15px;
+    }
+    .gets{
+        width: unset;
+         width:98%
+    }
+    .para1,.para2,.para3{
+        font-size: 30px;
+    }
+    .left{
+        line-height: 1.5;
+         display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: left;
+    }
+    .right{
+        line-height: 1.5;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .right img{
+        width:200px;
+    }
+}
