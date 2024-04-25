@@ -1,4 +1,8 @@
 import React, { useState } from 'react'
+import cup from "/img/cups.png"
+import b2 from "/img/b2.png"
+import b1 from "/img/b1.png"
+import uepage from "/img/uepage.webp"
 export default function Head({activate,deactivate}) {
     
     const [courses, setcourses] = useState([... Array(20).fill({title:"Intro to Robotics", ratings:"5.0",details:" Learn how to make programme your own robots"})])
@@ -9,7 +13,7 @@ export default function Head({activate,deactivate}) {
     <div className="head">
         <div className="header">
             <div className="logob">
-                        <img className="poster" src="./img/cups.png"  alt="" srcset=""/>
+                        <img className="poster" src={cup}  alt="" srcset=""/>
 
             </div>
 
@@ -43,7 +47,7 @@ export default function Head({activate,deactivate}) {
         <div className='ctop'>{a.title}</div></div>
         <div className="options"><a href="" target="_blank" className="more">
  <span className='ratings'>{a.ratings}⭐</span></a></div>
- <div className="imgbox"><img className="image" src="./img/cups.png" /></div><div className="text">ue-movies</div></div>
+ <div className="imgbox"><img className="image" src={cup} /></div><div className="text">ue-movies</div></div>
  <div className="flexdown">
     {a.details}
  </div>
@@ -70,9 +74,9 @@ export default function Head({activate,deactivate}) {
         <div className="qright">
         <div className="parat2">
             Wish to learn robotics? You are at the right place 🦾 🪛
-            <img className="ui" src="./img/b1.png" alt="" srcset=""/>
+            <img className="ui" src={b1} alt="" srcset=""/>
            
-           <img className="ui" src="./img/b2.png" alt="" srcset=""/>
+           <img className="ui" src={b2} alt="" srcset=""/>
             </div>
       
          
@@ -98,7 +102,7 @@ export default function Head({activate,deactivate}) {
         </p>
     </div>
     <div className="right">
-        <img className="phone" src="./img/uepage.webp"/>
+        <img className="phone" src={uepage}/>
     </div>
     </div>
     <div className="start"><a  href="" target="_blank" className="getstarted">Let's get started</a></div>
