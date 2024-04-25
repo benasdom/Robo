@@ -5,17 +5,7 @@ export default function Foot() {
 <>
 
 <div className="footer">
-        <div className="sec">
-            <h4>Our Links</h4>
-            <ul className="feet">
-                <li><a className="flinks" target="_blank" href="https://benasdom.github.io/documentation/"><div className="icon"><span className="media">📃</span></div>Documentation</a></li>
-                <li><a className="flinks" target="_blank" href="https://benasdom.github.io/uepasco/"><div className="icon"><img className="media" src="./img/uepasco.png" alt="" srcset=""/></div>past questions</a></li>
-                <li><a className="flinks" target="_blank" href="#"><div className="icon"><span className="media">🛍️</span></div>commerce</a></li>
-                <li><a className="flinks" target="_blank" href="#"><div className="icon"><span className="media">🎬</span></div>movies</a></li>
-                <li><a className="flinks" target="_blank" href="#"><div className="icon"><span className="media">🎮</span></div>Games</a></li>
-                <li><a className="flinks" target="_blank" href="#"><div className="icon"><span className="media">☁️</span></div>webhosting</a></li>
-            </ul>
-        </div>
+      
      <div className="sec">
             <h4>Social Media</h4>
             <ul className="feet">
@@ -31,7 +21,7 @@ export default function Foot() {
         </div>     <div className="sec">
             <h4>Additional Links</h4>
             <ul className="feet">
-            <li><a className="flinks" target="_blank" href="benasdom.github.io/ue"><span className="icon"><img src=".//img/icon-a.webp" className="media"/></span>unity elites</a></li>
+            <li><a className="flinks" target="_blank" href="https://www.youtube.com/@unityelites5682"><span className="icon"><img src=".//img/youtube.ico" className="media"/></span>Youtube</a></li>
        
             </ul>
         </div>     <div className="sec">
@@ -48,6 +38,8 @@ export default function Foot() {
                     <img src="./img/cloudflare.png" className="cloudflare" height="20px" width="20px"/>
                      </span>
                     Cloudflare</a></li>
+                    <li><a className="flinks" target="_blank" href="benasdom.github.io/ue"><span className="icon"><img src=".//img/icon-a.webp" className="media"/></span>unity elites  </a></li>
+
        
             </ul>
         </div> 

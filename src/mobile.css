@@ -98,6 +98,7 @@
         background:none;
 
     }
+ 
     .parat2{
         font-size:15px;
     }
@@ -108,9 +109,16 @@
     .para1,.para2,.para3{
         font-size: 30px;
     }
+    .sparagraph::after{
+        margin-right:10px;
+        height:70px;
+        width:70px;
+        margin-bottom:-25px;
+    }
     .left{
         line-height: 1.5;
          display: flex;
+         width:unset;
         flex-direction: column;
         justify-content: space-between;
         align-items: left;

@@ -22,9 +22,9 @@ export default function Head({activate,deactivate}) {
                 </div>
 
             </div>
-            <div className="headtext" data-word="Robotics">
+            <div className="headtext" data-word="Wise Robotics">
                 <div className="headtext1 htextactive">
-                    Robotics
+                    Wise Robotics
                  </div>
                 <div className="headtext2">s
                    &nbsp to Unity Elites
@@ -41,7 +41,7 @@ export default function Head({activate,deactivate}) {
         <div href="#" onmouseover="return activate(this)" data-cat="imgs" key={""+b} onmouseleave="return deactivate()" className="item">
     <div className="ctext">
         <div className='ctop'>{a.title}</div></div>
-        <div className="options"><a href="https://benasdom.github.io/documentation/" target="_blank" className="more">
+        <div className="options"><a href="" target="_blank" className="more">
  <span className='ratings'>{a.ratings}⭐</span></a></div>
  <div className="imgbox"><img className="image" src="./img/cups.png" /></div><div className="text">ue-movies</div></div>
  <div className="flexdown">
@@ -58,9 +58,9 @@ export default function Head({activate,deactivate}) {
             <p className="para"> - What we do ✊🏽 💫-</p>
             <p className="parat">
                 <ul className="list">
-                    <div className='template'><div className="iconbox"><i className="fa fa-gear"></i></div><li>We create responsive and interactive designs that keep users engaged</li></div>
-                    <div className='template'><div className="iconbox"><i className="fa fa-book"></i></div><li> We use the best UI/UX practices to get you the best </li></div>
-                    <div className='template'><div className="iconbox"><i className="fa fa-brush"></i></div><li> We use AI generative logic to communicate with your audience through your page content</li></div>
+                    <div className='template'><div className="iconbox"><i className="fa fa-gear"></i></div><li> A practical oriented approach to get you engaged and improve your skill</li></div>
+                    <div className='template'><div className="iconbox"><i className="fa fa-book"></i></div><li> A procedural guide to acheive significant mile stones hence, Leading you to mastery </li></div>
+                    <div className='template'><div className="iconbox"><i className="fa fa-brush"></i></div><li> Well optimised courses to cover everything you will need on your learning journey</li></div>
                 </ul>
 
             </p>
@@ -89,33 +89,19 @@ export default function Head({activate,deactivate}) {
         <p className="para1">Our specialty
              
         </p>
-        <p className="parat">
-            <ul className="list">
-                <li>SEO optimisation,XML sitemaps,web and mobile development</li>
-                <li>Front-end, Back-end, Cloud Hosting, Email Routing,DNS Management</li>
-                <li>Python, Javascript, Sql, React JS, React Native,DJango, Laravel .etc</li>
-            </ul>
+        <p className="sparagraph">
+          Bringing to you a complete guide on your journey to learn everything you need about the course
         </p>
         <p className="para3">Performance</p>
-        <p className="parat">
-           <ul className="list">
-            <li>Loading Speed, Best loading practices, Efficient CLI</li>
-            <li>User interaction, Component Rendering, Error handling</li>
-           </ul>
+        <p className="sparagraph"> 
+        We aim to move you from the novice level to an expert level
         </p>
-        <p className="para2">Security</p>
-        <p className="parat">
-            <ul className="list">
-                <li>SSL, TLS etc</li>
-
-            </ul>
-         </p>
     </div>
     <div className="right">
-        <img className="phone" src="./img/cups.png"/>
+        <img className="phone" src="./img/uepage.webp"/>
     </div>
     </div>
-    <div className="start"><a  href="https://benasdom.github.io/ue-clientInputs/" target="_blank" className="getstarted">I need a website</a></div>
+    <div className="start"><a  href="" target="_blank" className="getstarted">Let's get started</a></div>
 </div>
 
 

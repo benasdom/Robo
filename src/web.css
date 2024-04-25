@@ -64,21 +64,92 @@ a{
     text-decoration:none;
 
 }
-.footer{
-    background:
-    url(./img/icon-c.png) no-repeat,
-    linear-gradient(25deg,var(--back),rgb(38, 39, 41));
-    background-position:0% 70%;
-    height: 555px;
+.sparagraph::first-letter{
+    color:rgb(142, 206, 255);
+     font-size:30px;
+    font-weight: 600;
+}
+
+    .sparagraph{
+    position:relative;
+    font-size:18px;
+    color:white;
+       padding-top: 20px;
+      text-align: center;
+    background:rgba(255, 255, 255, 0.09);
+    height:160px;
+    letter-spacing:1.5px;
+    border:5px solid rgba(255, 255, 255, 0.09);
+    border-radius: 10px;
+}
+ 
+    .sparagraph::after{
+    content:"";
+    position:absolute;
+    right:0;
+    bottom:0;
+     margin-right:-50px;
+     margin-bottom:-50px;
     display: flex;
-    background-position: 0% 44%, center;
-    background-attachment: fixed,scroll;
-    flex-wrap: wrap;
+    background-image:
+     url(img/cups.png);
+    background-size:cover;
+    background-repeat:no-repeat;
+     background-position: top;
+    height:100px;
+    width:100px;
+    border:5px solid rgba(255, 255, 255, 0.09);
+    border-radius: 50%;
+    align-self: flex-end;
+    filter:hue-rotate(0deg);
+
+    animation: alarm 15s linear infinite;
+  }
+  @keyframes alarm {
+    50%{
+        filter:hue-rotate(360deg);
+
+    }
+  }
+.footer{
+ 
+      display: flex;
+     flex-wrap: wrap;
     position: relative;
     justify-content: space-around;
+         padding:50px 50px 50px 50px;
+        height:650px;
+        background-image:
+        radial-gradient(#0000,rgb(0, 0, 0) 80%),
+        repeating-conic-gradient(
+          from 75deg,
+          rgb(6, 0, 29) 0deg 45deg,
+        rgba(55, 178, 255, 0.378)  90deg 90deg
+        );
+        background-size: 127em 58em;
+        border-top: 5px solid rgb(6, 1, 20);
+        animation: twinkle 10s ease-in-out infinite;
 
-}
-.paystack,.cloudflare,.media{
+      }
+      @keyframes twinkle {
+        25%{
+          background-size:130em 50em;
+      
+        }
+        50%{
+       background-size:100em 50em;
+      
+      
+        }
+        75%{
+          background-size:130em 50em;
+      
+        }
+      }
+      
+      
+
+ .paystack,.cloudflare,.media{
     height:20px;
     width: 20px;
     border-radius: 50%;
