@@ -1,8 +1,8 @@
 import React, { useState } from 'react'
 import cup from "/img/cups.png"
-import b2 from "/img/b2.png"
-import b1 from "/img/b1.png"
-import uepage from "/img/uepage.webp"
+import b2 from "/img/robos.png"
+import b1 from "/img/wiserob-nobg.png"
+import uepage from "/img/cups.png"
 export default function Head({activate,deactivate}) {
     
     const [courses, setcourses] = useState([... Array(20).fill({title:"Intro to Robotics", ratings:"5.0",details:" Learn how to make programme your own robots"})])
