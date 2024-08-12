@@ -46,7 +46,7 @@
 }
 body{
     background:
-    url(./img/loggirl.svg),
+    url(/img/loggirl.svg),
     radial-gradient(var(--back),var(--back2)),
     repeating-conic-gradient(
     from 75deg,
