@@ -92,7 +92,7 @@ a{
      margin-bottom:-50px;
     display: flex;
     background-image:
-     url(img/cups.png);
+     url(https://benasdom.github.io/Robo/img/cups.png);
     background-size:cover;
     background-repeat:no-repeat;
      background-position: top;
@@ -159,7 +159,6 @@ a{
     height:20px;
     width: 20px;
     border-radius: 50%;
- 
 }
 .flinks{
     color:var(--gsmalltext);
@@ -709,7 +708,7 @@ filter:drop-shadow(0px 0px 30px rgba(0, 255, 255, 0))
     font-size:30px;
     font-family:cursive;
      width:400px;
-     background-image: url(img/spiral.svg);
+     background-image: url(https://benasdom.github.io/Robo/img/spiral.svg);
      margin-top:20px;
      margin-bottom:20px;
     background-repeat: no-repeat;
