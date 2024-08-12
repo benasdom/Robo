@@ -23,7 +23,7 @@
               animation-timeline:view(800px 0px);   
                }
     .headtext::after{
-    content:"Robotics";
+    content:"Wise Robotics";
     top:20px;
     }
     .headtext,.headtext1,.headtext2,.htextactive{
@@ -80,8 +80,8 @@
 
     }
     .qright{
-        width: 80%;
-        height:300px;
+        width:50%;
+        height:500px;
         margin:auto;
     }
     .getst{
