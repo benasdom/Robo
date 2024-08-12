@@ -46,7 +46,7 @@
 }
 body{
     background:
-    url(/img/loggirl.svg),
+    url(./img/loggirl.svg),
     radial-gradient(var(--back),var(--back2)),
     repeating-conic-gradient(
     from 75deg,
@@ -64,22 +64,17 @@ a{
     text-decoration:none;
 
 }
-.sparagraph::first-letter{
-    color:rgb(142, 206, 255);
-     font-size:30px;
-    font-weight: 600;
-}
+ 
 
     .sparagraph{
     position:relative;
-    font-size:18px;
+    font-size:30px;
     color:white;
+    font-weight: 600;
        padding-top: 20px;
-      text-align: center;
-    background:rgba(255, 255, 255, 0.09);
-    height:160px;
+    height:200px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     letter-spacing:1.5px;
-    border:5px solid rgba(255, 255, 255, 0.09);
     border-radius: 10px;
 }
  
@@ -92,7 +87,7 @@ a{
      margin-bottom:-50px;
     display: flex;
     background-image:
-     url(https://benasdom.github.io/Robo/img/cups.png);
+     url(img/cups.png);
     background-size:cover;
     background-repeat:no-repeat;
      background-position: top;
@@ -159,6 +154,7 @@ a{
     height:20px;
     width: 20px;
     border-radius: 50%;
+ 
 }
 .flinks{
     color:var(--gsmalltext);
@@ -231,7 +227,7 @@ h4{
             border-radius:  0px 0px 0px 0px;
 
         }
- 
+        
         100%{
             border-radius:  0px 0px 90% 0px;
 
@@ -462,7 +458,8 @@ filter:drop-shadow(0px 0px 30px rgba(0, 255, 255, 0))
     font-size: 13px;
     list-style:circle;
       letter-spacing:2px;
-      border-radius: 10xp;
+      border-radius: 10px;
+      overflow-y:scroll;
       line-height:2;
       font-weight:500;
       margin-top:100px;
@@ -602,12 +599,10 @@ filter:drop-shadow(0px 0px 30px rgba(0, 255, 255, 0))
      right: 0;
 }
 .para1{
-    padding:10px;
-     font-size: 82px;
-    color:gold;
+    font-size: 30px;
+    color:lime;
     background:rgba(0, 0, 0, 0.2);
     letter-spacing:2px;
-
     border-radius: 7px;
     width: fit-content;
 
@@ -674,8 +669,7 @@ filter:drop-shadow(0px 0px 30px rgba(0, 255, 255, 0))
 
 }
 .para3{
-    padding:10px;
-     font-size: 82px;
+    font-size:30px;
      color:rgb(255, 0, 187);
      background:rgba(0, 0, 0, 0.2);
     border-radius: 7px;
@@ -708,7 +702,7 @@ filter:drop-shadow(0px 0px 30px rgba(0, 255, 255, 0))
     font-size:30px;
     font-family:cursive;
      width:400px;
-     background-image: url(https://benasdom.github.io/Robo/img/spiral.svg);
+     background-image: url(img/spiral.svg);
      margin-top:20px;
      margin-bottom:20px;
     background-repeat: no-repeat;
@@ -767,7 +761,6 @@ filter:drop-shadow(0px 0px 30px rgba(0, 255, 255, 0))
 }
  
 .qright{
-    width:50%;
     position: relative;
     height:500px;
     padding-top: 30px;
